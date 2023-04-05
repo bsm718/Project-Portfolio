@@ -1,11 +1,29 @@
+:root {
+  --company-font-family: "Sacramento", cursive;
+  --tagline-font-family: "Karla", sans-serif;
+  --accent-color: rgb(91, 9, 2);
+}
+
 h1 {
-  font-family: "Sacramento", cursive;
-  font-size: 88px;
+  font-family: var(--company-font-family);
+  font-size: 65px;
+}
+
+.hero {
   text-align: center;
 }
 
 .tagline {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 28px;
-  text-align: center;
+  font-family: var(--tagline-font-family);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.link {
+  background: green;
+  font-size: 10px;
+}
+
+.link:hover {
+  background: var(--accent-color);
 }
