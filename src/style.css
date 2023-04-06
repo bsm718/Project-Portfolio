@@ -1,29 +1,87 @@
 :root {
-  --company-font-family: "Sacramento", cursive;
-  --tagline-font-family: "Karla", sans-serif;
-  --accent-color: rgb(91, 9, 2);
+  --accent-color: rgb(119, 12, 2);
 }
 
-h1 {
-  font-family: var(--company-font-family);
+.company {
   font-size: 65px;
+}
+
+.rose {
+  max-width: 30px;
+}
+
+.sac {
+  font-family: "Sacramento", cursive;
+}
+
+.karla {
+  font-family: "Karla", sans-serif;
 }
 
 .hero {
   text-align: center;
+  margin-top: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .tagline {
-  font-family: var(--tagline-font-family);
-  font-weight: 400;
-  font-size: 16px;
+  color: var(--accent-color);
+  font-weight: 800;
+  font-size: 20px;
 }
 
 .link {
   background: green;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .link:hover {
   background: var(--accent-color);
+}
+
+.serviceHeading {
+  color: var(--accent-color);
+  font-size: 22px;
+}
+
+.paragraph {
+  font-size: 15px;
+  padding: 25px;
+}
+
+.footer {
+  font-size: 11px;
+}
+
+.fullLogo {
+  display: none;
+}
+
+.display {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .logo {
+    display: none;
+  }
+
+  .fullLogo {
+    display: inline;
+  }
+
+  .serviceHeading {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 475px) {
+  .company {
+    font-size: 55px;
+  }
+
+  .tagline {
+    font-size: 17px;
+  }
 }
