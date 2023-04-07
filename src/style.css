@@ -50,8 +50,12 @@
   padding: 25px;
 }
 
-.footer {
-  font-size: 11px;
+.lastParagraph {
+  text-align: center;
+}
+
+.allFooter {
+  font-size: 9px;
 }
 
 .fullLogo {
