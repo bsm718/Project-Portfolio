@@ -1,4 +1,5 @@
 :root {
+  --main-color: rgb(3, 141, 3);
   --accent-color: rgb(119, 12, 2);
 }
 
@@ -32,7 +33,7 @@
 }
 
 .link {
-  background: green;
+  background: var(--main-color);
   font-size: 15px;
 }
 
@@ -55,7 +56,7 @@
 }
 
 .mamaStory {
-  color: green;
+  color: var(--main-color);
 }
 
 .images {
@@ -87,6 +88,10 @@
 
 .display {
   display: none;
+}
+
+.food {
+  padding: 5px;
 }
 
 @media (max-width: 1024px) {
